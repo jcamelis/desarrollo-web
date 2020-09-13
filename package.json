@@ -4,6 +4,7 @@
   "description": "Web Development Course",
   "main": "index.html",
   "scripts": {
+    "start": "http-server",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -20,5 +21,8 @@
   "bugs": {
     "url": "https://github.com/jcamelis/desarrollo-web/issues"
   },
-  "homepage": "https://github.com/jcamelis/desarrollo-web#readme"
+  "homepage": "https://github.com/jcamelis/desarrollo-web#readme",
+  "dependencies": {
+    "http-server": "^0.12.3"
+  }
 }
