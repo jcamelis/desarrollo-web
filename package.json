@@ -1,0 +1,24 @@
+{
+  "name": "desarrollo-web",
+  "version": "1.0.0",
+  "description": "Web Development Course",
+  "main": "index.html",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/jcamelis/desarrollo-web.git"
+  },
+  "keywords": [
+    "web",
+    "development",
+    "course"
+  ],
+  "author": "jcamelis@gmail.com",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jcamelis/desarrollo-web/issues"
+  },
+  "homepage": "https://github.com/jcamelis/desarrollo-web#readme"
+}
