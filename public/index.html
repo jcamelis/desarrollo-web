@@ -10,6 +10,12 @@
         <header>
             <h1>Titulo principal</h1>
             <h2>Subtitulo</h2>
+            <form action="/" method="GET">
+                <label for="email">Email</label>
+                <input id="email" type="text" name="email"/>
+                <input id="password" type="password" name="password"/>
+                <button type="submit" >enviar</button>
+            </form>
         </header>
         <main>
             <aside>
@@ -22,9 +28,13 @@
                     <li>Item 6</li>
                 </ul>
             </aside>
-            <section>
+            <section id="principal">
                 <article>
                     Article 1
+                    <p>una linea</p>
+                    <div>
+                        <p>otra linea</p>
+                    </div>
                 </article>
                 <article>
                     Article 2
@@ -38,7 +48,7 @@
             <nav>
                 <h4>Footer Links 1</h4>
                 <ul>
-                    <li class="left-links"><a href="">Link 1</a></li>
+                    <li class="left-links"><a class="recomended" href="">Link 1</a></li>
                     <li class="left-links"><a href="">Link 2</a></li>
                     <li class="left-links"><a href="">Link 3</a></li>
                 </ul>
@@ -56,7 +66,7 @@
                 <ul>
                     <li><a href="">Link 1</a></li>
                     <li><a href="">Link 2</a></li>
-                    <li><a href="">Link 3</a></li>
+                    <li><a  class="recomended"  href="">Link 3</a></li>
                 </ul>
             </nav>
         </footer>

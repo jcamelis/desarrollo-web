@@ -1,4 +1,8 @@
 /* Type Selector */
+h1, h2 {
+    color: #888;
+}
+
 main {
     display: flex;
     border: solid 1px red;
@@ -22,6 +26,18 @@ main section article {
     padding: 25px;
 }
 
+main section article > p {
+    font-size: 20px;
+}
+
+main section article > p:hover {
+    color: orangered;
+}
+
+main aside ul li + li {
+    border-top: solid 1px #000;
+}
+
 footer {
     display: flex;
     justify-content: space-around;
@@ -33,6 +49,10 @@ footer {
     color: blue;
 }
 
+.left-links a {
+    color: red;
+}
+
 .middle-links {
     color: red;
 }
@@ -41,9 +61,25 @@ footer {
     color: green;
 }
 
+.recomended::before {
+    content: '* ';
+}
+
 /* ID Selector */
+
+#principal {
+    background-color: #eee;
+}
 
 
 /* Attributes Selector */
+
+[type="text"] {
+    width: 200px;
+}
+
+[type="password"] {
+    background: #ddd;
+}
 
 
